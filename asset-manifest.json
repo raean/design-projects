@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/design-projects/static/css/main.19c0c972.chunk.css",
+    "main.js": "/design-projects/static/js/main.a17a25de.chunk.js",
+    "main.js.map": "/design-projects/static/js/main.a17a25de.chunk.js.map",
+    "runtime-main.js": "/design-projects/static/js/runtime-main.b6090d89.js",
+    "runtime-main.js.map": "/design-projects/static/js/runtime-main.b6090d89.js.map",
+    "static/js/2.cb8b0878.chunk.js": "/design-projects/static/js/2.cb8b0878.chunk.js",
+    "static/js/2.cb8b0878.chunk.js.map": "/design-projects/static/js/2.cb8b0878.chunk.js.map",
+    "index.html": "/design-projects/index.html",
+    "static/css/main.19c0c972.chunk.css.map": "/design-projects/static/css/main.19c0c972.chunk.css.map",
+    "static/js/2.cb8b0878.chunk.js.LICENSE.txt": "/design-projects/static/js/2.cb8b0878.chunk.js.LICENSE.txt",
+    "static/media/tcf-3.526ecd35.png": "/design-projects/static/media/tcf-3.526ecd35.png",
+    "static/media/tcf-4.900a5f48.png": "/design-projects/static/media/tcf-4.900a5f48.png",
+    "static/media/tcf-5.659d3cd3.png": "/design-projects/static/media/tcf-5.659d3cd3.png",
+    "static/media/tcf-6.a3461447.png": "/design-projects/static/media/tcf-6.a3461447.png",
+    "static/media/tcf-7.b006faa2.png": "/design-projects/static/media/tcf-7.b006faa2.png",
+    "static/media/tcf-logo.86972953.png": "/design-projects/static/media/tcf-logo.86972953.png",
+    "static/media/tcf-page.a583f5ae.png": "/design-projects/static/media/tcf-page.a583f5ae.png",
+    "static/media/tcf-v1.2.4d9affa0.png": "/design-projects/static/media/tcf-v1.2.4d9affa0.png",
+    "static/media/tcf-v1.e5bf3e61.png": "/design-projects/static/media/tcf-v1.e5bf3e61.png",
+    "static/media/tcf-wireframe.cffb843f.png": "/design-projects/static/media/tcf-wireframe.cffb843f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b6090d89.js",
+    "static/js/2.cb8b0878.chunk.js",
+    "static/css/main.19c0c972.chunk.css",
+    "static/js/main.a17a25de.chunk.js"
+  ]
+}
