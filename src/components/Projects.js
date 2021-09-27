@@ -18,7 +18,7 @@ export function Projects(props) {
                 <button class={"project-button" + (selectedProject === 0 ? "-selected" : "")} onClick={() => setSelectedProject(0)}> All In </button>
                 <button class={"project-button" + (selectedProject === 1 ? "-selected" : "")} onClick={() => setSelectedProject(1)}> Junior Workshop Designer</button>
                 <button class={"project-button" + (selectedProject === 2 ? "-selected" : "")} onClick={() => setSelectedProject(2)}> Sustainable Housing Development </button>
-                <button class={"project-button" + (selectedProject === 3 ? "-selected" : "")} onClick={() => setSelectedProject(3)}> SmartTrax </button> */}
+                <button class={"project-button" + (selectedProject === 3 ? "-selected" : "")} onClick={() => setSelectedProject(3)}> SmartTrax </button> 
                 {selectedProject === 0 && <div><AllIn/></div>}
                 {selectedProject === 1 && <div><Hub/></div>}
                 {selectedProject === 2 && <div>Proj2</div>}

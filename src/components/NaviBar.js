@@ -1,5 +1,6 @@
 import React from 'react';
 import '../index.css';
+import pdf from '../docs/rae-one-pager.pdf';
 
 /**
  * Renders the Nominations components which provides a list of the nominated movies found, their title, their year released, their poster as well as a button to remove the movie from their nominations list.
@@ -24,8 +25,8 @@ export function NaviBar(props) {
                 <li><a href="/about">About</a></li>
                 <li><a href="/design-projects"> Design </a></li>
                 <li><a href="/code-projects"> Code </a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li><a onclick="window.open('./docs/rae-one-pager.pdf','_blank')" class="resume">Resume</a></li>
+                {/* <li><a href="#contact">Contact</a></li> */}
+                <li><a href={pdf} target="_blank" class="resume" without rel='noopener noreferrer'>Resume</a></li>
                 </ul>
                 <div className="menu-btn">
                 <i class="fas fa-bars"></i>
