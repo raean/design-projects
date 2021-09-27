@@ -1,5 +1,8 @@
 import React, {useState} from 'react';
 import '../index.css';
+import {SmartTrax} from './SmartTrax';
+import {AllIn} from './AllIn';
+import {Hub} from './Hub';
 
 /**
  * Renders the Nominations components which provides a list of the nominated movies found, their title, their year released, their poster as well as a button to remove the movie from their nominations list.
