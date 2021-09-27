@@ -14,7 +14,7 @@ export function Projects(props) {
     return (
         <div class="about" id="about">
             <div class="max-width">
-               <h2 class="title">Coding Projects </h2>
+               <h2 class="title">Design Projects </h2>
                 <button class={"project-button" + (selectedProject === 0 ? "-selected" : "")} onClick={() => setSelectedProject(0)}> All In </button>
                 <button class={"project-button" + (selectedProject === 1 ? "-selected" : "")} onClick={() => setSelectedProject(1)}> Junior Workshop Designer</button>
                 <button class={"project-button" + (selectedProject === 2 ? "-selected" : "")} onClick={() => setSelectedProject(2)}> Sustainable Housing Development </button>
