@@ -10,6 +10,16 @@ import tcf4 from '../images/tcf-4.png'
 import tcf5 from '../images/tcf-5.png'
 import tcf6 from '../images/tcf-6.png'
 import tcf7 from '../images/tcf-7.png'
+import tcf8 from '../images/tcf-8.png'
+import tcf9 from '../images/tcf-9.png'
+import tcf10 from '../images/tcf-10.png'
+import tcf11 from '../images/tcf-11.png'
+import tcf12 from '../images/tcf-12.png'
+import tcf13 from '../images/tcf-13.png'
+import tcf14 from '../images/tcf-14.png'
+import tcf15 from '../images/tcf-15.png'
+import tcf16 from '../images/tcf-16.png'
+import tcf17 from '../images/tcf-17.png'
 
 
 export function AllIn(props) {
@@ -18,16 +28,18 @@ export function AllIn(props) {
                <h2 class="title-2"> 🧳 All In </h2>
                <div class="about-content" >
                     <i>All In is a job post screening tool that supports Canadian employers in producing more inclusive job postings to attract a more diverse set of candidates.</i>
+
+                    <i> <span style={{textDecoration: "underline"}}> Duration:</span> 3 months. </i>
                 </div>
 
-               <h2 class="title-3"> Context </h2>
+               <h2 class="title-3"> 🔍 Context </h2>
                <div class="about-content">
                     The Career Foundation (TCF) is a non-profit organization that provides employment services to job seekers within Ontario. As a part of Accenture's pro bono services, TCF leveraged the opportunity to work with Accenture with an idea to build a digital tool to generate more inclusive job postings. 
                </div>
 
                <img src={tcfLogo}/>
 
-               <h2 class="title-3"> Preceeding Work </h2>
+               <h2 class="title-3"> ⏮ Preceeding Work </h2>
                <div class="about-content">
                     Given that TCF had a rough idea of the path they wanted to embark on with the digital tool, the initial team decided to conduct 20 interviews with various stakeholders, such as TCF executives, job seekers (end-users) of variable minorities, employers of various sizes and internal Accenture employees.
                     <br/><br/>
@@ -41,14 +53,14 @@ export function AllIn(props) {
                <img src={tcfWireframe}/>
 
 
-               <h2 class="title-3"> My Contributions </h2>
+               <h2 class="title-3"> 👋🏼 My Contributions </h2>
                <div class="about-content">
                     I joined this project as the sole User Experience Designer and Front-End Developer. Given that it was already decided that a digital tool was to be developed in the form of a web application, my contributions involved creating high fidelity clickable prototypes using Adobe Xd, conducting user interviews to assess user interactions of prototype iterations and developing/shipping the tool using front-end development technologies.
                </div>
 
                <img src={tcfPage}/>
 
-                <h2 class="title-3"> Product Iterations </h2>
+                <h2 class="title-3"> 🔁 Product Iterations </h2>
 
                 <div class="about-content"> 
                     Within this section, I will walk you through the 4 iterative cycles I went through and the key changes that were produced.
@@ -116,14 +128,82 @@ export function AllIn(props) {
                     On expansion of the Recommendation card, users would be given a suggestion that can be actioned offline by clicking the "I understand" button. Recommendation cards do not impact the core.
                 </div>
 
-                <h2 class="title-3"> The Deliverable </h2>
+                <h2 class="title-3"> ✅ The Deliverable </h2>
 
                 <div class="about-content">
-                    The final deliverable was a fully functioning site, that can be accessed via the following link: <a style={{margin: "20px"}} href="https://allin.careerfoundation.com/">https://allin.careerfoundation.com</a>
+                    The final deliverable was a fully functioning site, that can be accessed via the following link: <a style={{margin: "20px"}} href="https://allin.careerfoundation.com/" target="_blank">https://allin.careerfoundation.com</a>
 
-                    The tool was shipped to the client and integrated with their system with the help of the back-end developer on the team. All the front-end components were built by myself. As I built the tool, I discovered my own difficulties as I translated the design into practical code.      
+                    The tool was shipped to the client and integrated with their system with the help of the back-end developer on the team. All the front-end components were built by myself. As I built the tool, the design evolved as I faced obstacles translating mock-ups into practical code and as I recieved novel business requirements from the client past the design phase.
+                    <br/><br/>
+                    The design evolution included the following:
                 </div>
 
+                <h2 class="title-4"> Bulk Upload: </h2>
+                
+                <img src={tcf10}/>
+
+                <div class="about-content">
+                    A bulk upload feature, where users would be able to upload more than one job posting in the format of a row in an Excel or CSV file. You can access the bulk upload feature by toggling a switch on the top of the form. Users will be offered the option to download a template in order to fill out their multiple job descriptions and then required to upload it, along with their email, in order to receive the same document back with additional columns that contained their score, their performacne metrics and other suggestions. Users are also emailed a reference number such that they can access the downloadable screened document through the site as well.
+                </div>
+
+                <h2 class="title-4"> Form Validation: </h2>
+                
+                <img src={tcf12}/>
+
+                <div class="about-content">
+                    Users are expected to enter a job title and a job description of at least 60 words before generating a set of suggestions. Form error-handling and completion was built in and signaled ot the user by outliningg the mandatory fields.
+                </div>
+
+                <h2 class="title-4"> Progress Bars: </h2>
+                
+                <img src={tcf13}/>
+
+                <div class="about-content">
+                    Category titles were added to the suggested changes section and progress bars for each category were added to the tracker. This is to support the users in compartmentalizing the suggestions and earn a sense of productivity as they interact with the cards.    
+                </div>
+
+                <h2 class="title-4"> Cards: </h2>
+
+                <img style={{width: "200px"}} src={tcf15}/>
+
+                <div class="about-content">
+                    Cards labeled as Recommendations have been renamed to Suggestions.
+                </div>
+                
+                <img style={{width: "400px"}} src={tcf14}/>
+
+                <div class="about-content">
+                    Instead of "I Understand" being the actionable button title for the suggestion cards, they are now titled "Action Offline" as per the clients request.
+                </div>
+
+                <img style={{width: "400px"}} src={tcf16}/>
+
+                <div class="about-content">
+                    Replacement cards that have multiple options for word replacements are structured such that each word get it's own button, along with a "Don't Change" button. This it to accommodate for Replacement cards with multiple options.
+                </div>
+
+                <img style={{width: "400px"}} src={tcf17}/>
+
+                <div class="about-content">
+                    Users are also able to copy their most up-to-date job description to their clipboard once they are satisfied with their changes and thier imporved score. This feature was embedded due to the demand for easily moving the content over to platform such as LinkedIn or applications such as Microsoft Word.
+                </div>
+
+                <h2 class="title-3"> ⏱ What Could've Been </h2>
+
+                <div class="about-content">
+                    I do believe, as with many designs, there are a multitude of improvements and alterations that would have enhanced the user's experience. In this section, I would like to walk you through some of the considerations I've had mulled over in my head over the past few weeks.
+
+                    <ul style={{paddingLeft: "30px", lineHeight: "2"}}>
+                        <li> There is plenty of room for improvement within the <span style={{fontWeight: "bold"}}> bulk upload feature</span>. The current feature does not allow for live changes nor does the individual form allow for a speedier approach to processing the job descriptions. The vision for future versions of the bulk upload feature would mimic more closely how Grammarly web application allows users to screen through pieces of text.  </li>
+                        <li> The <span style={{fontWeight: "bold"}}> inclusivity score </span> is still of hot debate amongst client executives and the internal team. Some argue that it allows for users to feel more involved in the improvement of their job descriptions, whereas others fell suspect to it's validity. There was conversation on perhaps using textual or icon-based scoring, however, a numeric score was preferred that toggles into a "Fail" score upon receiving a score below 50%. </li>
+
+                    </ul>
+                    
+                </div>
+
+                <div class="about-content">
+                    <br/><br/>
+                </div>
 
         </section> 
     )

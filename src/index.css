@@ -186,21 +186,20 @@
   font-weight: 400;
   /* text-align: center;  */
   font-size: 20px;
-  margin-bottom: 20px;
+  margin-top: 40px;
 }
 
 .about .title-2 {
   position: relative;
   font-weight: 500;
   font-size: 33px;
-  margin-bottom: 20px;
 }
 
 .about .title-3 {
   position: relative;
   font-weight: 400;
   font-size: 27px;
-  margin-bottom: 20px;
+  margin-top: 40px;
 }
 
 .about .about-content {
@@ -211,8 +210,8 @@
   align-items: left;
   justify-content: space-between;
   width: 75%;
-  padding-bottom: 20px;
-  line-height: 1.6;
+  padding-top: 20px;
+  line-height: 2;
 } 
 
 .about .about-content p{
@@ -231,8 +230,8 @@
   width: 800px;
   object-fit: cover;
   border-radius: 8px;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  filter: drop-shadow(2px 2px 4px lightgrey);
+  margin-top: 20px;
 }
 
 .about .about-content .text span {
