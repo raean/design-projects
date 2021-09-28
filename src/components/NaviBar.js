@@ -22,7 +22,7 @@ export function NaviBar(props) {
                 </div>
                 <ul class="menu">
                 <li><a href="/">Home</a></li>
-                <li><a href="/about">About</a></li>
+                <li><a href="/#about">About</a></li>
                 <li><a href="/design-projects"> Design </a></li>
                 <li><a href="/code-projects"> Code </a></li>
                 {/* <li><a href="#contact">Contact</a></li> */}
