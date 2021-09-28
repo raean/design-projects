@@ -41,10 +41,11 @@ export function Hub(props) {
                 <div class="about-content">
                     I really enjoyed the immersive experience that this role provided. I learned a lot about design thinking and workshop facilitation. It helped improve my presentation skills as well as my ability to keep a room of attendees present and engaged.
                     <Break/>
-                    I also learned the enormous responsibilities that come wit corporate work. Administrative tasks, documentation and detail-oritented work were of critical importance within the role given the seniority of the clients as well as the external image of the team.
+                    I also learned the enormous responsibilities that come with corporate work. Administrative tasks, documentation and detail-oritented work were of critical importance within the role given the seniority of the clients as well as the external image of the team.
                     <Break/>
-                    My most eventful highlight was presenting curated analytics from an employee survey I desigend to C-suite client members. This informed and aided them as they continued the workshop's activities, and the overall digital transformation of their organization.
-                    <Break/><Break/>
+                    My most eventful highlight was presenting curated analytics from an employee survey I designed to C-suite client members. This informed and aided them as they continued the workshop's activities, and the overall digital transformation of their organization.
+                    <Break/>
+                    <Break/>
                 </div>
 
 
