@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/design-projects/static/css/main.f679d592.chunk.css",
-    "main.js": "/design-projects/static/js/main.29b057a4.chunk.js",
-    "main.js.map": "/design-projects/static/js/main.29b057a4.chunk.js.map",
+    "main.js": "/design-projects/static/js/main.6c842ba4.chunk.js",
+    "main.js.map": "/design-projects/static/js/main.6c842ba4.chunk.js.map",
     "runtime-main.js": "/design-projects/static/js/runtime-main.b6090d89.js",
     "runtime-main.js.map": "/design-projects/static/js/runtime-main.b6090d89.js.map",
     "static/js/2.cb8b0878.chunk.js": "/design-projects/static/js/2.cb8b0878.chunk.js",
@@ -12,13 +12,15 @@
     "static/js/2.cb8b0878.chunk.js.LICENSE.txt": "/design-projects/static/js/2.cb8b0878.chunk.js.LICENSE.txt",
     "static/media/hub-1.701ecf43.png": "/design-projects/static/media/hub-1.701ecf43.png",
     "static/media/hub-3.741170cc.jpg": "/design-projects/static/media/hub-3.741170cc.jpg",
-    "static/media/rae-one-pager.68085c22.pdf": "/design-projects/static/media/rae-one-pager.68085c22.pdf",
+    "static/media/rae-one-pager.3559b333.pdf": "/design-projects/static/media/rae-one-pager.3559b333.pdf",
     "static/media/st-12.965b2616.png": "/design-projects/static/media/st-12.965b2616.png",
     "static/media/st-14.507ee271.png": "/design-projects/static/media/st-14.507ee271.png",
     "static/media/st-15.e1067de5.png": "/design-projects/static/media/st-15.e1067de5.png",
+    "static/media/st-17.df6901e6.png": "/design-projects/static/media/st-17.df6901e6.png",
+    "static/media/st-18.13b5f8de.png": "/design-projects/static/media/st-18.13b5f8de.png",
+    "static/media/st-19.85677f5d.png": "/design-projects/static/media/st-19.85677f5d.png",
     "static/media/st-4.3b5b3b92.jpeg": "/design-projects/static/media/st-4.3b5b3b92.jpeg",
     "static/media/st-7.1665833c.png": "/design-projects/static/media/st-7.1665833c.png",
-    "static/media/st-9.17028184.jpeg": "/design-projects/static/media/st-9.17028184.jpeg",
     "static/media/tcf-10.bb213c49.png": "/design-projects/static/media/tcf-10.bb213c49.png",
     "static/media/tcf-11.a664dac9.png": "/design-projects/static/media/tcf-11.a664dac9.png",
     "static/media/tcf-12.348ddc33.png": "/design-projects/static/media/tcf-12.348ddc33.png",
@@ -27,6 +29,12 @@
     "static/media/tcf-15.664aec5c.png": "/design-projects/static/media/tcf-15.664aec5c.png",
     "static/media/tcf-16.c340f9f2.png": "/design-projects/static/media/tcf-16.c340f9f2.png",
     "static/media/tcf-17.5d8e88a0.png": "/design-projects/static/media/tcf-17.5d8e88a0.png",
+    "static/media/tcf-18.889376d6.png": "/design-projects/static/media/tcf-18.889376d6.png",
+    "static/media/tcf-19.088e9b2d.png": "/design-projects/static/media/tcf-19.088e9b2d.png",
+    "static/media/tcf-21.9ada6cbf.png": "/design-projects/static/media/tcf-21.9ada6cbf.png",
+    "static/media/tcf-22.09eb11b6.png": "/design-projects/static/media/tcf-22.09eb11b6.png",
+    "static/media/tcf-23.eb96d6fd.jpg": "/design-projects/static/media/tcf-23.eb96d6fd.jpg",
+    "static/media/tcf-24.e0e243c3.jpg": "/design-projects/static/media/tcf-24.e0e243c3.jpg",
     "static/media/tcf-3.526ecd35.png": "/design-projects/static/media/tcf-3.526ecd35.png",
     "static/media/tcf-4.900a5f48.png": "/design-projects/static/media/tcf-4.900a5f48.png",
     "static/media/tcf-5.659d3cd3.png": "/design-projects/static/media/tcf-5.659d3cd3.png",
@@ -44,6 +52,6 @@
     "static/js/runtime-main.b6090d89.js",
     "static/js/2.cb8b0878.chunk.js",
     "static/css/main.f679d592.chunk.css",
-    "static/js/main.29b057a4.chunk.js"
+    "static/js/main.6c842ba4.chunk.js"
   ]
 }
