@@ -1,6 +1,6 @@
 import React from 'react';
 import '../index.css';
-import pdf from '../docs/rae-one-pager.pdf';
+import pdf from '../docs/rae-abunahla_resume_july_2021.pdf';
 
 /**
  * Renders the Nominations components which provides a list of the nominated movies found, their title, their year released, their poster as well as a button to remove the movie from their nominations list.
